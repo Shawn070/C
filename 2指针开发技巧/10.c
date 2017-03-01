@@ -1,7 +1,7 @@
 /****************************************
 技巧01：使用指针实现整数排序
 ****************************************/
-/*
+
 #include <stdio.h>
 swap(int *p1,int *p2)
 {
@@ -32,11 +32,11 @@ int main(int argc, char *argv[])
   puts("press any key to quit ...");
   return 0;
 }
-*/
+
 /****************************************
 技巧02:使用指针实现数据交换
 ****************************************/
-/*
+
 #include <stdio.h>
 swap(int *p1,int *p2)
 {
@@ -57,11 +57,11 @@ int main(int argc, char *argv[])
   printf ("the result is :%d,%d\n",a,b);
   return 0;
 }
-*/
+
 /****************************************
 技巧03：指向结构体变量的指针
 ****************************************/
-/*
+
 #include <stdio.h>
 struct student   //自定义结构体
 {
@@ -84,11 +84,11 @@ int main(int argc, char *argv[])
   printf ("score:%f\n",p->score);
   return 0;
 }
-*/
+
 /****************************************
 技巧04:使用指针输出数组元素
 ****************************************/
-/*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -102,11 +102,11 @@ int main(int argc, char *argv[])
     printf ("%d ",*p);
   return 0;
 }
-*/
+
 /****************************************
 技巧05：用指针实现逆序存放数组元素值
 ****************************************/
- /*
+
 #include <stdio.h>
 inverte(int *x,int n)
 {
@@ -137,11 +137,11 @@ int main(int argc, char *argv[])
   printf ("\n");
   return 0;
 }
- */
+
 /****************************************
 技巧06：使用指针查找数列中最大值/最小值
 ****************************************/
-/*
+
 #include <stdio.h>
 void max_min(int a[],int n,int *max,int *min)
 {
@@ -168,11 +168,11 @@ int main(int argc, char *argv[])
   printf ("the maxinun number is:%d\n",min);
   return 0;
 }
-*/
+
 /****************************************
 技巧07：使用指针实现字符串复制(复制函数没有写成功）
 ****************************************/
-/*
+
 #include <stdio.h>
 copy(char *s,char *q)
 {
@@ -193,11 +193,11 @@ main()
   printf ("%s",p);
   return 0;
 }
-*/
+
 /****************************************
 技巧08：使用指针实现字符串的连接(段错误，未成功）
 ****************************************/
-/*
+
 #include <stdio.h>
 connect(char *s,char *t,char *q)
 {
@@ -228,11 +228,11 @@ int main(int argc, char *argv[])
   printf ("%s",p);
   return 0;
 }
-*/
+
 /****************************************
 技巧09：使用指针实现字符串插入(未成功）
 ****************************************/
-/*
+
 #include <stdio.h>
 #include <string.h>
 insert(char *s,char *q,int n)
@@ -269,11 +269,11 @@ int main(int argc, char *argv[])
   printf ("%s\n",str);
   return 0;
 }
-*/
+
 /****************************************
 技巧10：使用指针实现字符串的匹配
 ****************************************/
-/*
+
 #include <stdio.h>
 #include <string.h>
 int match(char *B,char *A)
@@ -311,5 +311,5 @@ int main(int argc, char *argv[])
   printf ("\n");
   return 0;
 }
-*/
+
 
